@@ -7,3 +7,6 @@ Resources Used: Python Crash Course (Chapters 1-7)
 Date: June 17 2026
 """
 
+print("********************************")
+print("   Welcome to MTZ Insurance!   ")
+print("********************************")
