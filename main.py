@@ -60,7 +60,7 @@ while running == True:
 
     #User Input Section
 
-    Customer_name = input(("Please enter your full name: ")).strip()
+    
     age = int(input("Please enter your age: "))
     car_year = int(input("Please enter the year of your car: "))    
     salary = float(input("Please enter your annual salary in digits: "))   
