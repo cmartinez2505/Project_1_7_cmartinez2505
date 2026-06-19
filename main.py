@@ -49,18 +49,22 @@ def calculate_quote(age, car_year, salary, driving_years, accidents):
     return final_insurance
 
 
+#Below is my main program loop
 
-print("********************************")
-print("   Welcome to MTZ Insurance!   ")
-print("********************************")
+is_running = True
+while is_running == True:
 
-#User Input Section
+    print("********************************")
+    print("   Welcome to MTZ Insurance!   ")
+    print("********************************")
 
-Customer_name = input(("Please enter your full name: ")).strip()
-age = int(input("Please enter your age: "))
-car_year = int(input("Please enter the year of your car: "))    
-salary = float(input("Please enter your annual salary in digits: "))   
-driving_years = int(input("How many years have you been driving? ")) 
-accidents = int(input("How many vehicle accidents have you gotten in? ")) 
+    #User Input Section
+
+    Customer_name = input(("Please enter your full name: ")).strip()
+    age = int(input("Please enter your age: "))
+    car_year = int(input("Please enter the year of your car: "))    
+    salary = float(input("Please enter your annual salary in digits: "))   
+    driving_years = int(input("How many years have you been driving? ")) 
+    accidents = int(input("How many vehicle accidents have you gotten in? ")) 
 
 
