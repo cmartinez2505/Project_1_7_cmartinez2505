@@ -26,5 +26,14 @@ final_insurance = base_insurance
 #If Statement #1 (A surcharge for young drivers that are 25 and under.)
 if age <= 25:
     final_insurance += 25.00
-    
+else:
+    pass;   
+
+#If Statement #2 (A discount of $15 for cars older then 15 years old and a $15 addition for cars newer 2023.)
+if car_year <= 2011:
+    final_insurance -= 15.00
+elif car_year >= 2024:
+    final_insurance += 15.00
+else:
+    pass
 
