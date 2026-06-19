@@ -51,4 +51,8 @@ if driving_years >= 5:
 else:
     pass
 
-
+#If Statement #5 (A extra 5 percent surcharge is given for those who had gotten into 2 or more car accidents.)
+if accidents >= 2:
+    final_insurance += final_insurance * 0.05
+else:
+    pass    
