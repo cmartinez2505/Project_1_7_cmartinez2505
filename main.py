@@ -23,7 +23,7 @@ accidents = int(input("How many vehicle accidents have you gotten in? "))
 base_insurance = 100.00
 final_insurance = base_insurance
 
-#If Statement #1 (A surcharge for young drivers that are 25 and under.)
+#If Statement #1 (A surcharge of $25 for young drivers that are 25 and under.)
 if age <= 25:
     final_insurance += 25.00
 else:
@@ -37,10 +37,16 @@ elif car_year >= 2024:
 else:
     pass
 
-#If Statement #3 (A percent surcharge for those who make over $200,000 annualy and a discount for those who make $40,000 or less a year)
+#If Statement #3 (A 10 percent surcharge for those who make over $200,000 annualy and a 10 discount for those who make $40,000 or less a year.)
 if salary >= 200000:
     final_insurance += final_insurance * 0.10
 elif salary <= 40000:
     final_insurance -= final_insurance * 0.10    
 else:
     pass
+
+#If Statement #4 (A extra 10 discount is given to drivers who drove a car for atleast 5 years or more.)
+if driving_years >= 5:
+    final_insurance -= final_insurance * 0.10
+else:
+    pass    
