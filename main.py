@@ -13,9 +13,18 @@ print("********************************")
 
 #User Input Section
 
-Customer_name = input(print("Please enter your full name: ")).strip()
+Customer_name = input(("Please enter your full name: ")).strip()
 age = int(input("Please enter your age: "))
 car_year = int(input("Please enter the year of your car: "))    
 salary = float(input("Please enter your annual salary in digits: "))   
 driving_years = int(input("How many years have you been driving? ")) 
 accidents = int(input("How many vehicle accidents have you gotten in? ")) 
+
+base_insurance = 50.00
+final_insurance = base_insurance
+
+#If Statement #1 (A surcharge for young drivers that are 25 and under.)
+if age <= 25:
+    final_insurance += 25.00
+    
+
