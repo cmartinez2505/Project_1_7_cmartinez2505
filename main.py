@@ -37,3 +37,11 @@ elif car_year >= 2024:
 else:
     pass
 
+#If Statment #3 (A percent surcharge for those who make over $200,000 annualy and a discount for those who make $40,000 or less a year)
+if salary >= 20000:
+    final_insurance += final_insurance * 0.10
+elif salary <= 40000:
+    final_insurance -= final_insurance * 0.10    
+else:
+    pass
+
