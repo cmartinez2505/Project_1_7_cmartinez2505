@@ -60,6 +60,10 @@ while running == True:
 
     customer_name = input("Please enter your full name (or type quit to exit program): ").strip()
 
+    if customer_name.lower == 'quit':
+       running = False
+       continue
+
     #User Input Section
 
     
