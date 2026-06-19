@@ -51,8 +51,8 @@ def calculate_quote(age, car_year, salary, driving_years, accidents):
 
 #Below is my main program loop
 
-is_running = True
-while is_running == True:
+running = True
+while running == True:
 
     print("********************************")
     print("   Welcome to MTZ Insurance!   ")
