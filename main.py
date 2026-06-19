@@ -58,6 +58,8 @@ while running == True:
     print("   Welcome to MTZ Insurance!   ")
     print("********************************")
 
+    customer_name = input("Please enter your full name (or type quit to exit program): ").strip()
+
     #User Input Section
 
     
