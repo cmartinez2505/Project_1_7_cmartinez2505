@@ -81,6 +81,9 @@ while running == True:
 
     #Here the function is called to find the final insurance price for the customer
 
-    calculate_quote(age, car_year, salary, driving_years, accidents)
+    monthly_payment = calculate_quote(age, car_year, salary, driving_years, accidents)
 
+    #Below is a dictionary collection to create a customer profile
+
+    
 
