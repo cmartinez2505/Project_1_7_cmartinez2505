@@ -102,7 +102,14 @@ while running == True:
     print("Customer Name: " + customer_profile["Customer Name"])
     print("Monthly Rate: $" + str(customer_profile["Monthly Rate"]))
     print("                             ")
-    
+
+#This section is what is displayed when the user exits the loop
+
+print("********************************")
+print("Thank you for visiting MTZ Insurance")
+print("********************************")
+
+
 
 
 
