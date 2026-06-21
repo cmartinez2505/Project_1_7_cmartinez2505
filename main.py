@@ -91,7 +91,12 @@ while running == True:
        "Monthly Rate": monthly_payment
     }
 
-    
+    #Here the profile has been appended to the all_customers list
+
+    all_customers.append(customer_profile)
+
+
+
 
     
 
