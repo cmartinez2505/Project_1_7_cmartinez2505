@@ -48,6 +48,9 @@ def calculate_quote(age, car_year, salary, driving_years, accidents):
 
     return final_insurance
 
+#Here is my list for all my customers dictionaries stores
+
+all_customers = []
 
 #Below is my main program loop
 
@@ -72,5 +75,7 @@ while running == True:
     salary = float(input("Please enter your annual salary in digits: "))   
     driving_years = int(input("How many years have you been driving? ")) 
     accidents = int(input("How many vehicle accidents have you gotten in? ")) 
+
+    final
 
 
