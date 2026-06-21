@@ -73,10 +73,10 @@ while running == True:
     #User Input Section
 
     age = int(input("Please enter your age: "))
-    car_year = int(input("Please enter the year of your car: "))    
-    salary = float(input("Please enter your annual salary in digits: "))   
-    driving_years = int(input("How many years have you been driving? ")) 
-    accidents = int(input("How many vehicle accidents have you gotten in? ")) 
+    car_year = int(input("Please enter the 4 digit year of your car: "))    
+    salary = float(input("Please enter your annual salary using only numbers(no commas): "))   
+    driving_years = int(input("Please enter the total number of years you have been driving: ")) 
+    accidents = int(input("Please enter the total number of car accidents you had: ")) 
 
 
     #Here the function is called to find the final insurance price for the customer
