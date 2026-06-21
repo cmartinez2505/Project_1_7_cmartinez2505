@@ -85,5 +85,13 @@ while running == True:
 
     #Below is a dictionary collection to create a customer profile
 
+    customer_profile = {
+       "Customer Name": customer_name,
+       "Age": age,
+       "Monthly Rate": monthly_payment
+    }
+
+    
+
     
 
