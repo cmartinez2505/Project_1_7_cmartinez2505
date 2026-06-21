@@ -95,6 +95,15 @@ while running == True:
 
     all_customers.append(customer_profile)
 
+    #Printed out the customers quote result
+
+    print("-----MTZ Insurance Quote-----")
+    print("                             ")
+    print("Customer Name: " + customer_profile["Customer Name"])
+    print("Monthly Rate: $" + str(customer_profile["Monthly Rate"]))
+    print("                             ")
+    
+
 
 
 
