@@ -75,7 +75,9 @@ while running == True:
 
     customer_name = input("Please enter your full name, type view to view profiles, or type quit to quit the program: ").strip()
 
-
+    if customer_name.lower() == 'view':
+       show_profiles(all_customers)
+       continue
 
     if customer_name.lower() == 'quit':
        running = False
