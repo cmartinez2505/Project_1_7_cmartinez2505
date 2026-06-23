@@ -51,11 +51,15 @@ def calculate_quote(age, car_year, salary, driving_years, accidents):
 def show_profiles(all_customers):
    """This function loops through the list of customers and it displays the profiles created"""
 
+   print("---------------- PROFILES CREATED ----------------")
+
    if not all_customers:
       print("No profiles have been created")
    else:
       for profile in all_customers:
          print("Driver:", profile["Customer Name"], " | Age:", profile["Age"], " | Monthly Rate:", profile["Monthly Rate"])
+
+   print("-------------------------------------------------")
 
 
 
